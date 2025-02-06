@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: grey;
+    height: 8vh;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    padding-top: 15px;
+}
+
+p{
+    display: inline-block;
+}
+
+main{
+    display: block;
+    height: 100vh;
+   
+    background-color: lightblue;
+    color: #000000;
+}
+
+div{
+    position: relative;
+    top: 70px;
+    text-align: justify;
+    width: 100%;
+}
+
+footer{
+    background-color: white;
+    color: black;
+    height: 20vh;
+    text-align: center;
+    padding-top: 35px;
+}
